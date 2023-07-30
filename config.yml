@@ -26,7 +26,11 @@ service:
   max_concurrent_access_control_syncs: 1
   job_cleanup_interval: 300
   log_level: INFO
-
+  
+elasticsearch:
+  api_key: "eks2YnFJa0JpajA4RGFZR2JSMGk6NzZDOEUyZzNTXzZqVVE4SWQ4cnRIZw=="
+connector_id: "y66ZqIkBij08DaYG9h3C"
+service_type: "dropbox"
 #connectors:
 #  -
 #    connector_id: changeme
